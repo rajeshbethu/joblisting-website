@@ -1,0 +1,78 @@
+.main_container{
+ 	width: 30%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+.login_text,.signup_text,.post_job_text{
+ 	margin: 0;
+ 	font-weight: 600;
+}
+.link_on_form{
+	color: #0f8fcc;
+}
+.link_on_form:hover{
+	text-decoration: underline;
+}
+.form_container{
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+ .form_item{
+ 	width: 100%;
+ 	margin: 15px 0px;
+ 	display: block;
+ 	padding: 10px 5px;
+ 	border-radius: 5px;
+ 	border: 1px #ddd solid;
+ 	outline: none;
+ }
+ .desc{
+ 	resize: vertical;
+ }
+ .submit_btn{
+ 	background: #0f8fcc;
+ 	color: #fff;
+ 	border: none;
+ 	outline: none;
+ 	cursor: pointer;
+ }
+.error_text{
+	display: none;
+	color: red;
+	margin: 0;
+}
+@media screen and (max-width: 680px){
+	.main_container{
+		width: 100%;
+	}
+	nav{
+		width: 100%;
+		justify-content: space-around;
+	}
+	.nav_icons{
+		white-space: nowrap;
+		padding: 1px;
+	}
+	.filter_btn{
+		width: 25%;
+	}
+}
+@media screen and (min-width: 680px) and (max-width: 900px){
+	.main_container{
+		width: 70%;
+	}
+	nav{
+		width: 100%;
+		justify-content: space-around;
+	}
+	.nav_icons{
+		white-space: nowrap;
+		padding: 1px;
+	}
+	.filter_btn{
+		width: 25%;
+	}
+}

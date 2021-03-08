@@ -1,0 +1,80 @@
+.body_container{
+ 	width: 60%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+
+ }
+.filter_form{
+ 	display: flex;
+ 	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 3px;
+	box-sizing: border-box;
+	border-radius: 3px;
+	margin-bottom: 10px;
+ }
+.filter{
+	width: 100%;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	border-radius: 3px;
+}
+.filter_btn{
+	width: 10%;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	cursor: pointer;
+	background: #0f8fcc;
+	color: #fff;
+	white-space: nowrap;
+}
+
+.job_posts{
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.job_posts h3,h1{
+	margin: 0;
+	color: #091e42;
+}
+
+.job_posts p,.job_posts div{
+	color: #000000a1;
+}
+
+@media screen and (max-width: 680px){
+	.body_container{
+		width: 98%;
+	}
+	nav{
+		width: 100%;
+		justify-content: space-around;
+	}
+	.nav_icons{
+		white-space: nowrap;
+		padding: 1px;
+	}
+	.filter_btn{
+		width: 25%;
+	}
+}
+@media screen and (min-width: 680px) and (max-width: 900px){
+	.body_container{
+		width: 98%!important;
+	}
+	nav{
+		width: 100%!important;
+		justify-content: space-around!important;
+	}
+	.nav_icons{
+		padding: 1px!important;
+	}
+	.filter_btn{
+		width: 25%!important;
+	}
+}
