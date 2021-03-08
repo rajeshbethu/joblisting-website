@@ -1,0 +1,64 @@
+.post_container{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.post_header{
+	border-bottom: 1px solid #ddd;
+}
+.post_header p{
+	margin-bottom: 5px;
+}
+.post_desc p{
+	margin-bottom: 0;
+}
+.post{
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.post h1{
+	font-weight: 400;
+}
+.posted_date{
+	font-size: 13px;
+}
+.post_footer_container{
+	padding: 10px;
+}
+.post_footer{
+	padding: 5px;	
+}
+.post_footer p{
+	margin: 0 0 5px 0;
+}
+.footer_title{
+	font-weight: 500;
+}
+.footer_value{
+	font-size: 14px;
+}
+.footer_btns{
+	margin: 10px 0px;
+}
+.edit{
+	text-decoration: none;
+	color: #fff;
+	background: #0f8fcc;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.delete{
+	text-decoration: none;
+	color: #fff;
+	background: #dc3545;
+	border: none;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
